@@ -1,7 +1,6 @@
 import { IoCopy, IoRefreshOutline } from "react-icons/io5";
 import { useState } from "react";
 import "./App.style.scss";
-import "./components/Rand";
 const PasswordGenerator = () => {
   const [password, setPassword] = useState("");
   const [length, setLength] = useState(5);
